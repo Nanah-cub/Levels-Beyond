@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+
+@each $name, $value in $grid-map {
+  @each $size, $screen-width in $grid-sizes {
+    .col-#{$size}-#{$name}{
+      @media (min-width: #{$screen-width}) {
+        width: #{$value};
+        float: left;
+      }
+    }
+  }
+}

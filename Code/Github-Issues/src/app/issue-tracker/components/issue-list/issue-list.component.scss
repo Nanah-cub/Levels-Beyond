@@ -1,0 +1,13 @@
+.issue-info{
+  color: grey;
+}
+
+.issue-table {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.issue-item{
+  flex: 1;
+}
