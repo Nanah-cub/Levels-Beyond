@@ -1,0 +1,1 @@
+INSERT INTO MY_DATABASE.NOTE (body) VALUES ('Remember to do homework'),('Remember to cook dinner');

@@ -1,0 +1,5 @@
+create schema MY_DATABASE;
+CREATE TABLE MY_DATABASE.NOTE (
+  id   Int IDENTITY PRIMARY KEY,
+  body VARCHAR(255),
+);

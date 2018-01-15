@@ -1,0 +1,1 @@
+INSERT INTO MY_DATABASE.NOTE (body) VALUES ('Cook test'),('Assignment Test');
