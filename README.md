@@ -36,9 +36,16 @@ In order to run the GitHub Issues project pleace follow the below instructions
 * Set up a logging configuration file
 * Create builds for different enverionemnts
 * Add more tests for controllers and services. The project could use some more specific tests. 
-* Determine what is considered a failure, and how to handle a failure. In my project I considered a failure to occur if an id was provided in the git request, that does not exist in the database. 
+* Determine what is considered a failure, and how to handle a failure. In my project I considered a failure to occur if an id was provided in the git request, that does not exist in the database. I don't consider that conclusive
 * Change the way current tests are handled. Creating a test class that executes tests by name is not probably the best way to handle tests
+* I would also need to know how these notes are used and how they might be expected to grow. Currently they are represented by a database table with two columns, but that expectation is unrealistic. 
+
 
 ### GitHub Issues
+1. The Github issues project is pretty simple. I didn't introduce routes. Below are the things I would consider.
+* I used Angular for the Frontend solution. I consider it a good tool and it is the one I have the most experience in, but it is not necessarily the best tool to use for a new project. I see Angular shining when a company is composed of developers that have mostly backend focus. 
+* The greatest weakness I see with this project is the UI. I could specific issues with displaying the body of the issue. 
+* In this project I implemented a previous and next button to get more issues. One problem I see with my current implementation is that I do not know how many pages of issues there are. I have to believe there is an API call that will list the number of issues. 
+
 
 
