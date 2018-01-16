@@ -26,6 +26,4 @@ In order to run the GitHub Issues project pleace follow the below instructions
 2. Embedded Database: I choose to use an embedded database purely because it was the easiest to get up in running. It also wouldn't change my design overly much
 3. Spring-Data-JPA: Spring Data JPA provided all the functionality I desired to complete this project. One possible issue with using it is the save method. When save is a called it inserts an object if the primary key doesn't exists and updates if it exists. This might not be the desired functionality.
 
-### GitHub
-I built this assignment using Angular and SCSS. I choose Angular because simply it is the Frontend Framework that I have the most experience in and would be the best representation of my code. I am actively trying to gain familiary with the React/Redux way of doing things `https://github.com/Nanah-cub/react-start-webapp`, but still need a little more time. 
 
