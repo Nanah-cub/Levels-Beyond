@@ -20,7 +20,7 @@ export class IssueService {
    * @returns {Observable<IssueIF[]>}
    */
   retrieveIssues(user: string, repo: string, date: string, page: number =  1): Observable<IssueIF []> {
-    const urlString = `https://api.github.com/repos/${user}/${repo}/issues?since=${date}&page=${page}`;
+    const urlString = `https://api.github.com/repos/${user}/${repo}/issues?since=${date}&page=${page}&sort=updated&direction=desc`;
     return this.http.get<IssueIF []>(urlString);
   }
 

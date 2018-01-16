@@ -10,7 +10,7 @@ import { DatePipe } from '@angular/common';
   styleUrls: ['./issue-item.component.scss'],
   template: `
     <div (click)="emitIssueItem()" [ngClass]="issue.activeIssue ? 'active' : ''" class="page-item">
-      <span>{{issue.updated_at | date: 'shortDate'}}</span>
+      <span>Updated: {{issue.updated_at | date: 'shortDate'}}</span>
       <br>
       <span class="user">{{issue.title}}</span>
     </div>
