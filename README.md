@@ -10,7 +10,7 @@ In order to run the NoteTaker Project follow the below steps.
 2. Copy/Clone project to local machine 
 3. In the command terminal please navigate to this folder using `cd /Users/JoshBuchanan/Desktop/Git/Levels-Beyond/Deployables/Note`
 4. In the command terminal please excute the following command
-  `java jar NoteTaker-1.0-SNAPSHOT.jar`
+  `java -jar NoteTaker-1.0-SNAPSHOT.jar`
   
 ### GitHub-Issues
 In order to run the GitHub Issues project pleace follow the below instructions
