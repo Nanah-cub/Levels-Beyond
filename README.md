@@ -23,7 +23,22 @@ In order to run the GitHub Issues project pleace follow the below instructions
 ### NoteTaker
 #### Frameworks/Databases
 1. Spring Boot: I choose Spring Boot, because it provided a lot of the the functionality I wanted out of the box. I like using this framework a lot, because it has a lot of testing support out of the box, and encourages object oriented software development practices with Dependency Injection. 
-2. Embedded Database: I choose to use an embedded database purely because it was the easiest to get up in running. It also wouldn't change my design overly much
+2. Embedded Database: I choose to use an embedded database purely because it was the easiest to get up in running. It also wouldn't change my design overly much. 
 3. Spring-Data-JPA: Spring Data JPA provided all the functionality I desired to complete this project. One possible issue with using it is the save method. When save is a called it inserts an object if the primary key doesn't exists and updates if it exists. This might not be the desired functionality.
+
+## Reservations/TODO
+---
+
+### NoteTaker
+1. The Note-Taking project was extremely simple for a backend project. If it grew more complicated these are the things I would consider.
+
+* Use Spring-Config to handle configuration files. It currently is pure Java configuration, but I would probably use property files for database configurations and possible logging if it grew.
+* Set up a logging configuration file
+* Create builds for different enverionemnts
+* Add more tests for controllers and services. The project could use some more specific tests. 
+* Determine what is considered a failure, and how to handle a failure. In my project I considered a failure to occur if an id was provided in the git request, that does not exist in the database. 
+* Change the way current tests are handled. Creating a test class that executes tests by name is not probably the best way to handle tests
+
+### GitHub Issues
 
 
