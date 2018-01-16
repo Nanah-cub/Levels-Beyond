@@ -15,7 +15,7 @@ In order to run the NoteTaker Project follow the below steps.
 ### GitHub-Issues
 In order to run the GitHub Issues project pleace follow the below instructions
 1. Copy/Clone Project to local machine
-2. Navigate to `**INSTALL_LOCATION**/Deployables/GitHub/dist` folder
+2. Navigate to `INSTALL_LOCATION/Deployables/GitHub/dist` folder
 3. Right click `index.html` and click `open with` and click your browser of choice. I expect it will work for just about any browser including Internet Explorer, but I have only tested using Chrome and Safari
 
 ## Design Descisions 
